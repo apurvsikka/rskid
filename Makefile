@@ -10,7 +10,7 @@ BINDIR   := $(PREFIX)/bin
 
 # Targets
 TARGET   := rskid
-SRC      := rskid.c
+SRC      := main.c
 OBJ      := $(SRC:.c=.o)
 
 # Default build
